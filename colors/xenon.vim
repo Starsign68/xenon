@@ -10,8 +10,8 @@
 " Author: Severi Jääskeläinen <severi.jaaskelainen@gmail.com>
 " URL: https://github.com/severij/xenon
 " Licence: MIT Licence
-" Version: 0.1
-" Last Change: March 1st, 2021
+" Version: 0.2
+" Last Change: March 7th, 2021
 
 highlight clear
 
@@ -46,6 +46,10 @@ hi MatchParen cterm=reverse ctermbg=16 ctermfg=226
 hi TSVariableBuiltin ctermfg=134
 
 "-------------------------------------------------------------------------------
+
+hi! link TelescopeNormal Pmenu
+hi! link TelescopeSelection PmenuSel
+hi TelescopeMatching ctermfg=16 ctermbg=214
 
 hi Visual gui=none guifg=none guibg=#262626 cterm=none ctermfg=none ctermbg=235
 
